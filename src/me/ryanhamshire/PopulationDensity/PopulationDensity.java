@@ -174,7 +174,7 @@ public class PopulationDensity extends JavaPlugin
 		this.preciseWorldSpawn = config.getBoolean("PopulationDensity.PreciseWorldSpawn", false);
 		this.woodMinimum = config.getInt("PopulationDensity.MinimumWoodAvailableToPlaceNewPlayers", 200);
 		this.resourceMinimum = config.getInt("PopulationDensity.MinimumResourceScoreToPlaceNewPlayers", 200);
-		this.postProtectionRadius = config.getInt("PopulationDensity.PostProtectionDistance", 2);
+		this.postProtectionRadius = config.getInt("PopulationDensity.PostProtectionDistance", 20);
 		
 		String topper = config.getString("PopulationDensity.PostDesign.TopBlock", "89:0");  //default glowstone
 		String post = config.getString("PopulationDensity.PostDesign.PostBlocks", "89:0");
